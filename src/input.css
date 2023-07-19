@@ -4,6 +4,14 @@
 
 @layer components {
   .btn {
-    @apply py-2 px-4 bg-slate-400 text-white rounded-full;
+    @apply w-[90px] h-[32px] bg-slate-700 text-[#FEF4F4] rounded-[15px] bg-gradient-to-br from-[#BC0E19] to-[rgb(219,32,44)] text-[1rem] font-semibold shadow-xl shadow-slate-700 hover:brightness-90 focus:outline-none;
+  }
+
+  .showNav {
+    @apply fixed animate-slide flex top-0 right-1 flex-col h-[100vh] justify-around bg-transparent items-center md:px-16 px-6 pb-16 py-6 shadow-sm shadow-gray-300;
+  }
+
+  .closeNav {
+    @apply hidden fixed animate-closeSlide translate-x-[120px] top-0 right-1 flex-col h-[100vh] justify-around bg-slate-500 items-center px-4 py-2;
   }
 }
