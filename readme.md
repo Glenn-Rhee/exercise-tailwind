@@ -1,0 +1,1 @@
+https://www.figma.com/file/kB6t4TlVrg6QqttE3dFDJ4/Clone-Netflix-(Community)?type=design&node-id=0-1&mode=design&t=57ihCHHjqP0X7Rvq-0
