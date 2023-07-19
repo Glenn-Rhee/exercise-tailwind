@@ -534,18 +534,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.btn {
-  border-radius: 9999px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .w-full {
   width: 100%;
 }
@@ -557,12 +545,4 @@ video {
 
 .font-montserat {
   font-family: Montserrat, sans-serif;
-}
-
-.font-netflixLight {
-  font-family: Netflix-Light;
-}
-
-.text-\[56px\] {
-  font-size: 56px;
 }
