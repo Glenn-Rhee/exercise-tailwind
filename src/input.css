@@ -14,4 +14,17 @@
   .closeNav {
     @apply hidden fixed animate-closeSlide translate-x-[120px] top-0 right-1 flex-col h-[100vh] justify-around bg-slate-500 items-center px-4 py-2;
   }
+
+  .choosed {
+    @apply bg-gradient-to-br from-[#1F2127] via-[#373A43] to-[#1F2127] border border-white;
+  }
+
+  .btnUnchoose{
+    @apply bg-transparent border border-white
+  }
+
+  .btnChoosed {
+    @apply bg-gradient-to-br from-[#BC0E19] to-[#DB202C] shadow-xl shadow-black/10;
+  }
+
 }

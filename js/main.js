@@ -11,7 +11,7 @@ humbToggle.addEventListener("click", function () {
         humbToggle.classList.add("translate-x-40");
     }
 })
-console.log(close);
+
 close.addEventListener("click", function () {
     if (!menu.classList.contains("hidden")) {
         menu.classList.toggle("hidden");
@@ -20,4 +20,14 @@ close.addEventListener("click", function () {
         humbToggle.classList.remove("opacity-0");
         humbToggle.classList.remove("translate-x-40");
     }
+})
+
+// Paket
+const packets = document.querySelectorAll(".packet");
+const btns = document.querySelectorAll(".btn-package");
+packets[0].addEventListener("click", function(){
+    packets[0].classList.toggle("bg-[#1F2127]");
+    packets[0].classList.toggle("choosed");
+    btns[0].classList.toggle("btnUnchoose");
+    btns[0].classList.toggle("btnChoosed")
 })
