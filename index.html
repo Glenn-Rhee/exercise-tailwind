@@ -505,7 +505,7 @@
 
       <div class="container mt-12 mx-auto lg:grid lg:grid-cols-2">
         <div
-          class="packet mt-8 bg-[#1F2127] py-8 px-4 md:px-10 shadow-xl shadow-black/10 rounded-[35px] md:w-[80%] mx-auto cursor-pointer box-border"
+          class="choosed packet mt-8 bg-[#1F2127] py-8 px-4 md:px-10 shadow-xl shadow-black/10 rounded-[35px] md:w-[80%] mx-auto cursor-pointer box-border"
         >
           <header class="text-center">
             <h5
@@ -691,7 +691,7 @@
           </header>
           <footer class="mt-8 text-center">
             <button
-              class="btn-package py-4 px-12 rounded-[30px] btnUnchoose text-[#FEF4F4] outline-none text-xl md:text-2xl font-montserat fontsem"
+              class="btn-package py-4 px-12 rounded-[30px] btnChoosed text-[#FEF4F4] outline-none text-xl md:text-2xl font-montserat fontsem"
             >
               Choose Package
             </button>
@@ -1090,6 +1090,37 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section
+      class="w-full bg-[#C8CFEC] font-montserat text-[#1A1C22] py-8 px-8 md:px-20 md:py-14 lg:px-28"
+    >
+      <header>
+        <h3 class="text-center font-semibold text-xl md:text-3xl lg:text-4xl">
+          Join our community by subscribing to receive the most recent
+          information.
+        </h3>
+        <form action="">
+          <div
+            class="mt-8 mx-auto md:grid md:grid-cols-[3fr_1fr] md:gap-x-2 md:items-center md:h-20"
+          >
+            <div class="md:w-full md:justify-self-center lg:ml-12">
+              <input
+                type="email"
+                placeholder="Fill your email"
+                class="py-2 px-4 md:py-4 md:px-8 rounded-[18px] w-full mx-auto md:mx-0 focus:outline-none md:block focus:outline-sky-500 placeholder:text-[#1A1C22] placeholder:text-2xl lg:text-2xl"
+              />
+            </div>
+            <div class="md:justify-self-center">
+              <button
+                class="mt-4 md:mt-0 font-semibold text-xl md:text-2xl text-[#FEF4F4] py-2 px-4 md:py-4 md:px-8 rounded-[30px] bg-gradient-to-br md:inline-flex from-[#BC0E19] to-[#DB202C] shadow-xl shadow-black/10"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </form>
+      </header>
     </section>
     <script src="js/main.js"></script>
   </body>

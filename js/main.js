@@ -23,11 +23,11 @@ close.addEventListener("click", function () {
 })
 
 // Paket
-const packets = document.querySelectorAll(".packet");
-const btns = document.querySelectorAll(".btn-package");
-packets[0].addEventListener("click", function(){
-    packets[0].classList.toggle("bg-[#1F2127]");
-    packets[0].classList.toggle("choosed");
-    btns[0].classList.toggle("btnUnchoose");
-    btns[0].classList.toggle("btnChoosed")
-})
+// const packets = document.querySelectorAll(".packet");
+// const btns = document.querySelectorAll(".btn-package");
+// packets[0].addEventListener("click", function(){
+//     packets[0].classList.toggle("bg-[#1F2127]");
+//     packets[0].classList.toggle("choosed");
+//     btns[0].classList.toggle("btnUnchoose");
+//     btns[0].classList.toggle("btnChoosed");
+// })
