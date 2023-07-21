@@ -31,3 +31,20 @@ close.addEventListener("click", function () {
 //     btns[0].classList.toggle("btnUnchoose");
 //     btns[0].classList.toggle("btnChoosed");
 // })
+
+// Dark mode 
+const html = document.querySelector("html");
+const darkBtn = document.querySelectorAll(".dark-btn");
+const lightBtn = document.querySelectorAll(".light-btn");
+
+darkBtn.forEach(btn => {
+    btn.addEventListener("click", function(){
+        html.classList.remove("dark")
+    })
+})
+
+lightBtn.forEach(btn => {
+    btn.addEventListener("click", function(){
+        html.classList.add("dark")
+    })
+})
